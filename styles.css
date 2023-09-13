@@ -1,5 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body{
+
+    background-color: rgba(0,0,0,0.1);
+}
+
+header nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #334155;
+}
+
+.logo img{
+
+    height: 40px;
+    border-radius: 50%;
+    filter:invert(100%);
+}
+
+ul{
+
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 44%;
+
+}
+
+ul li{
+
+    list-style-type: style type none;
+}
+
+
+ul li a {
+
+    font-weight: 600;
+    text-decoration: none;
+}
+
+ul li a:hover{
+
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #4ca8e1;
+    text-decoration-color: #fff;
 }
