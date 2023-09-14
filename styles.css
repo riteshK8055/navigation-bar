@@ -48,10 +48,48 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover{
+ul li:not(:las
+) a:hover{
 
     text-decoration: underline;
     text-underline-offset: 4px;
     color: #4ca8e1;
     text-decoration-color: #fff;
+}
+
+.btn{
+
+    font-weight: 700;
+    padding: 8px 20px ;
+    border: none;
+    background:#4ca8e1;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+
+
+}
+
+.btn:hover{
+
+    background-color: #0091ff;
+}
+
+.hamburger{
+
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width:1024) {
+
+    .hamburger{
+
+        display:flex;
+    }
+
+    ul{
+        display: none;
+    }
+    
 }
